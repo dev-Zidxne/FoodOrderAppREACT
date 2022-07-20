@@ -6,11 +6,11 @@ import CartProvider from "../store/CartProvider";
 
 const Meals = () => {
   return (
-    <CartProvider>
+    <Fragment>
       <MealsSummary />
 
       <AvailableMeals />
-    </CartProvider>
+    </Fragment>
   );
 };
 export default Meals;
